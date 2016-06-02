@@ -8,22 +8,41 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  <h1>Useful conversions for cooking</h1>
-  <div class="container">
-    <form id="volume">
-      <div class="form-group">
-        <label for="tbsCup">Tablespoons to Cups</label>
-        <input id="tbsCup" class="form-control" type="text">
-       </div>
-       <div class="form-group">
-        <label for="cuptbs">Cups to Tablespoons</label>
-        <input id="cuptbs" class="form-control" type="text">
-       </div>
-       <button type="submit" class="btn">Convert!</button>
-     </form>
-     <div id="convert1">
 
-     </div>
+  <div class="container-fluid">
+    <h1>Useful conversions for cooking</h1>
+    <!-- volume conversion -->
+    <div class="col-md-3">
+      <div class="volume-group">
+        <form id="volume">
+          <div class="form-group">
+            <label for="tbsCup">Tablespoons to Cups</label>
+            <input id="tbsCup" class="form-control" type="text">
+           </div>
+           <div class="form-group">
+            <label for="cuptbs">Cups to Tablespoons</label>
+            <input id="cuptbs" class="form-control" type="text">
+           </div>
+           <button type="submit" class="btn">Convert!</button>
+         </form>
+       <div id="convert1"></div>
+       </div>
+    <!-- weight conversion -->
+        <div class="weight-group">
+         <form id="weight">
+           <div class="form-group">
+             <label for="lbsKg">Pounds to Kilograms</label>
+             <input id="lbsKg" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+             <label for="kgLbs">Kilograms to Pounds</label>
+             <input id="kgLbs" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Convert!</button>
+          </form>
+          <div id="convert2"></div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
